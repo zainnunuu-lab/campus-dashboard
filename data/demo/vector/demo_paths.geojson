@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "demo_paths",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Demo Road E-W", "type": "road", "data_status": "SYNTHETIC DEMO" }, "geometry": { "type": "LineString", "coordinates": [ [ 67.090218435379924, 24.915677187543981 ], [ 67.093781566801454, 24.915722791192398 ] ] } },
+{ "type": "Feature", "properties": { "name": "Demo Road N-S", "type": "road", "data_status": "SYNTHETIC DEMO" }, "geometry": { "type": "LineString", "coordinates": [ [ 67.092020835246942, 24.914346075181342 ], [ 67.091979163238207, 24.917053924556544 ] ] } },
+{ "type": "Feature", "properties": { "name": "Demo Footpath 1", "type": "footpath", "data_status": "SYNTHETIC DEMO" }, "geometry": { "type": "LineString", "coordinates": [ [ 67.090502851076295, 24.91649334515936 ], [ 67.091400586835661, 24.91605344465977 ], [ 67.091935057983136, 24.916060286488936 ] ] } },
+{ "type": "Feature", "properties": { "name": "Demo Footpath 2", "type": "footpath", "data_status": "SYNTHETIC DEMO" }, "geometry": { "type": "LineString", "coordinates": [ [ 67.092067719546449, 24.915159190134258 ], [ 67.092899113523472, 24.915169828077268 ], [ 67.093501294217873, 24.91463585336691 ] ] } }
+]
+}

@@ -1,0 +1,14 @@
+# Streamlit settings for local use. See https://docs.streamlit.io/develop/api-reference/configuration/config.toml
+[server]
+# Orthomosaics can be large; this is the per-file upload limit in MB (matches config.MAX_UPLOAD_MB["raster"]).
+maxUploadSize = 2000
+maxMessageSize = 400
+headless = false
+runOnSave = false
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#2a78d6"

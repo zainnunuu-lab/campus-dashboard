@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# user uploads stay local unless you decide to share them
+data/user/**
+!data/user/**/
+!data/user/**/.gitkeep
