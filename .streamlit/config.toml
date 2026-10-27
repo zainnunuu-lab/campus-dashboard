@@ -3,7 +3,6 @@
 # Orthomosaics can be large; this is the per-file upload limit in MB (matches config.MAX_UPLOAD_MB["raster"]).
 maxUploadSize = 2000
 maxMessageSize = 400
-headless = false
 runOnSave = false
 
 [browser]
